@@ -1,0 +1,5 @@
+{
+    "scripts": {
+      "storybook": "start-storybook -p 9001 -c .storybook"
+    }
+  }
