@@ -1,5 +1,22 @@
 {
-    "scripts": {
-      "storybook": "start-storybook -p 9001 -c .storybook"
-    }
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "devDependencies": {
+    "@storybook/react": "^3.4.2",
+    "babel-core": "^6.26.0"
+  },
+  "dependencies": {
+    "@blueprintjs/core": "^2.2.1",
+    "blueprintjs": "0.0.8",
+    "d3-shape": "^1.2.0",
+    "glamor": "^2.20.40",
+    "glamorous": "^4.12.4",
+    "react": "^16.3.2",
+    "react-chartist": "^0.13.1",
+    "react-dom": "^16.3.2",
+    "react-heatmap": "^1.0.6",
+    "react-spinners": "^0.3.2",
+    "react-vis": "^1.9.2"
   }
+}
