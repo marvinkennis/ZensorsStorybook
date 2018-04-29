@@ -5,6 +5,7 @@ import Button from '../components/Button';
 import InputField from '../components/InputField';
 import TextArea from '../components/TextArea';
 import Dropdown from '../components/Dropdown';
+import ImageCrop from '../components/ImageCrop';
 import LineGraph from '../components/LineGraph';
 import RadioButtonSet from '../components/RadioButtonSet';
 import { ClipLoader } from 'react-spinners';
@@ -142,7 +143,7 @@ storiesOf('Buttons', module)
   ))
 
   storiesOf('Indicators', module)
-  .add('Warning', () => (
+  .add('Loading', () => (
     <ClipLoader></ClipLoader>
   ))
 
@@ -156,6 +157,11 @@ storiesOf('Buttons', module)
   ))
 
 
+
+  storiesOf('Region select', module)
+  .add('Default', () => (
+    <ImageCrop></ImageCrop>
+  ))
 
 
 

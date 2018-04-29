@@ -8,14 +8,18 @@
   },
   "dependencies": {
     "@blueprintjs/core": "^2.2.1",
+    "babel-polyfill": "^6.26.0",
     "blueprintjs": "0.0.8",
     "d3-shape": "^1.2.0",
     "glamor": "^2.20.40",
     "glamorous": "^4.12.4",
     "react": "^16.3.2",
     "react-chartist": "^0.13.1",
+    "react-crop": "^4.0.2",
+    "react-cropper": "^1.0.1",
     "react-dom": "^16.3.2",
     "react-heatmap": "^1.0.6",
+    "react-image-crop": "^3.0.11",
     "react-spinners": "^0.3.2",
     "react-vis": "^1.9.2"
   }
