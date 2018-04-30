@@ -1,13 +1,14 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import glamorous from 'glamorous';
-import '@blueprintjs/core/lib/css/blueprint.css'
+import '../css/componentStyling.css'
+
 
 
 
 //children is whatever 
 console.log(this.props)
-const Button = (props) => <button type="button" class={props.class} style={{backgroundColor:'#424496',borderRadius:40, backgroundImage:'none', border:'none', color:'#FFFFFF'}}>{props.children}</button>
+const Button = (props) => <button class={props.class}>Yooo</button>
 
 
 Button.propTypes = {

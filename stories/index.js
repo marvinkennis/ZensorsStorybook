@@ -7,11 +7,11 @@ import TextArea from '../components/TextArea';
 import Dropdown from '../components/Dropdown';
 import ImageCrop from '../components/ImageCrop';
 import LineGraph from '../components/LineGraph';
+import MenuBar from '../components/Menubar';
 import RadioButtonSet from '../components/RadioButtonSet';
 import { ClipLoader } from 'react-spinners';
-import {Switch, Callout, Checkbox} from "../@zensorsblueprint/core";
+import {Switch, Callout, Checkbox, Icon} from "../@zensorsblueprint/core";
 
-import '../@zensorsblueprint/core/lib/css/blueprint.css'
 import XYImagePlot from '../components/XYImagePlot';
 
 var divStyle = {
@@ -33,7 +33,9 @@ storiesOf('Typography', module)
 
 storiesOf('Buttons', module)
   .add('Primary', () => (
-    <Button class="pt-button" onClick={action('clicked')}>Default button</Button>
+    <div>
+    <Button class="zs-button" onClick={action('clicked')}>Default button</Button>
+    </div>
   ))
 
   .add('Secondary', () => (
@@ -161,6 +163,11 @@ storiesOf('Buttons', module)
   storiesOf('Region select', module)
   .add('Default', () => (
     <ImageCrop></ImageCrop>
+  ))
+
+  storiesOf('Navigation', module)
+  .add('Menubar', () => (
+    <MenuBar></MenuBar>
   ))
 
 
