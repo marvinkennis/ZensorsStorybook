@@ -1,8 +1,7 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import glamorous from 'glamorous';
-import '../css/componentStyling.css'
-
+import './styling/omponentStyling.sass'
 
 
 

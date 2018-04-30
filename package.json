@@ -4,7 +4,9 @@
   },
   "devDependencies": {
     "@storybook/react": "^3.4.2",
-    "babel-core": "^6.26.0"
+    "babel-core": "^6.26.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1"
   },
   "dependencies": {
     "@blueprintjs/core": "^2.2.1",
